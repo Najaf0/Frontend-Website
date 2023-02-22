@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/618839bf55.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    <title>FASHION</title>
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/1.jpg" class="logo">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Modern</a></li>
+                <li><a href="">Latest</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+            <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+
+        </nav>
+        <div class="lamp-img">
+            <img src="images/lamp.png" class="lamp">
+        </div>
+        <div class="text-box">
+            <h1>All Latest Fashion</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.</p>
+                <div class="button2">
+                    <button>Check All Collections</button>
+                </div>
+                <div class="control">
+                    <p>04</p>
+                    <div class="line"><span></span></div>
+                    <p>05</p>
+                </div>
+        </div>
+    </div>
+
+    <script>
+        var btn = document.getElementById("btn");
+
+        function  toogleBtn(){
+           btn.classList.toggle("active"); 
+        }
+    </script>
+</body>
+
+</html>
